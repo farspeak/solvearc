@@ -1,0 +1,20 @@
+{
+    "name": "farspeak-scrape",
+    "version": "1.0.0",
+    "description": "",
+    "main": "cli.js",
+    "type": "module",
+    "scripts": {
+        "start": "node scrape.js",
+        "test": ""
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "puppeteer": "^1.0.0",
+        "farspeak": "^1.0.0",
+        "pdf-lib": "^1.0.0",
+        "yamljs": "^0.3.0",
+        "commander": "^12.1.0"
+    }
+}

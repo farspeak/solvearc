@@ -1,0 +1,6 @@
+instructions: "This is a graphical riddle. On the left side you see examples (inputs and outputs), and the on the top right you have the input for which you need to find a solution. Those puzzles usually involve sizes, shapes, colors, and similar. A shape appearing in examples can make a difference, or a combination of these factors, like shape and color and size etc. "
+template:
+  name: "Name this puzzle."
+  description: "Short description of the puzzle based on the example pairs of inputs and outputs."
+  insights: "Description of all the factors (and their values) that are necessary parts of the decision process that would give us the solution."
+  solution: "A list of how to step by step solve the problem by applying the insights you learnt. Getting the solution right is critical."
