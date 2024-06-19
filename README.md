@@ -8,7 +8,7 @@ It works like this:
 ./solver.js --website "https://arcprize.org/play?task=00576224" --template template.yaml --query "What's the solution?"
  ```
 
-Btw. if it stops working, then it means we've run out of compute :=) 
+Btw. if it stops working, it means we've run out of compute :=) 
 
 ## Table of Contents
 
