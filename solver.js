@@ -11,9 +11,9 @@ import fsPromises from 'fs/promises';
 
 // Farspeak setup
 const farspeak = new Farspeak({
-  app: 'solvearc', // your app name
-  env: 'dev', // your app env
-  backendToken: 'fvsdpjm2jhr4dx', // paste your backend token
+  app: '', // your app name
+  env: '', // your app env
+  backendToken: '', // paste your backend token
 });
 
 const entityName = 'papers';
