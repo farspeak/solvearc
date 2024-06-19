@@ -24,12 +24,9 @@ Before you begin, ensure you have met the following requirements:
 
 - **Farspeak** (go to farspeak.ai, create your app & get your private token).
 - **Node.js** and **npm** installed on your machine.
-- **Playwright** for web scraping. Install it by running:
- ```sh
-  npx playwright install
- ```
+- **Playwright** for web scraping.
 
-This command installs the necessary browsers (Webkit, Chromium). Farspeak for templating, JS/TS npm, knowledge base, pipelines. You will need a backend token from Farspeak.
+You also need the necessary browsers (Webkit, Chromium). Farspeak for templating, JS/TS npm, knowledge base, pipelines. You will need a backend token from Farspeak.
 
 ## Installation
 1. Clone the repository
