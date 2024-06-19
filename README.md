@@ -39,7 +39,7 @@ template:
 ```
 2. To scrape a website, convert it to a PDF, and process it using Farspeak, run the following command:
   ```sh
-  node index.js --website https://example.com --template ./template.yaml --query "What is the solution to the puzzle?"
+  ./solver.js --website "https://arcprize.org/play?task=00576224" --template template.yaml --query "What's the solution?"
  ```
 
 ## Example output
