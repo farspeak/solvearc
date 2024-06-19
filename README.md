@@ -1,6 +1,6 @@
 # Arc Prize Solver
 
-The Arc Prize Solver is a tool designed to scrape web pages, convert them into PDFs, and process the content using the Farspeak knowledge base and data pipelines. This project is aimed at solving puzzles and challenges presented in the Arc Prize competition.
+This project is aimed at solving puzzles and challenges presented in the Arc Prize competition.
 
 ## Table of Contents
 
