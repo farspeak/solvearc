@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 import fs from 'fs';
 import YAML from 'yamljs';
 import { Command } from 'commander';
-import puppeteer from 'puppeteer';
+import { chromium } from 'playwright';
 import fsPromises from 'fs/promises';
 
 // Farspeak setup
@@ -44,9 +44,12 @@ const { instructions, template } = YAML.load(templateFilePath);
 // Function to scrape website and convert to PDF
 async function scrapeAndConvertToPDF(url, outputPath) {
   try {
-    const browser = await puppeteer.launch();
+    const browser = await chromium.launch();
     const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'networkidle0' });
+    await page.goto(url, { waitUntil: 'networkidle' });
+
+    // Wait for the dynamic content to load
+    await page.waitForTimeout(20000);
 
     // Convert the content to a PDF buffer
     const pdfBuffer = await page.pdf({
