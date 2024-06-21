@@ -49,7 +49,7 @@ async function scrapeAndConvertToPDF(url, outputPath) {
     await page.goto(url, { waitUntil: 'networkidle' });
 
     // Wait for the dynamic content to load
-    await page.waitForTimeout(20000);
+    await page.waitForTimeout(2000);
 
     // Convert the content to a PDF buffer
     const pdfBuffer = await page.pdf({
